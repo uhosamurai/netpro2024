@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringOperationTest",
+            "request": "launch",
+            "mainClass": "StringOperationTest",
+            "projectName": "java-basic-1_1ee801cc"
+        },
+        {
+            "type": "java",
+            "name": "StringBufferTest",
+            "request": "launch",
+            "mainClass": "StringBufferTest",
+            "projectName": "java-basic-1_1ee801cc"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -19,10 +33,82 @@
         },
         {
             "type": "java",
+            "name": "Hello2",
+            "request": "launch",
+            "mainClass": "Hello2",
+            "projectName": "java-basic-1_1ee801cc"
+        },
+        {
+            "type": "java",
+            "name": "Hello3",
+            "request": "launch",
+            "mainClass": "Hello3",
+            "projectName": "java-basic-1_1ee801cc"
+        },
+        {
+            "type": "java",
+            "name": "Hello4",
+            "request": "launch",
+            "mainClass": "Hello4",
+            "projectName": "java-basic-1_1ee801cc"
+        },
+        {
+            "type": "java",
+            "name": "Hello5",
+            "request": "launch",
+            "mainClass": "Hello5",
+            "projectName": "java-basic-1_1ee801cc"
+        },
+        {
+            "type": "java",
             "name": "HelloArgs",
             "request": "launch",
             "mainClass": "HelloArgs",
             "projectName": "java-basic-1_1ee801cc"
+        },
+        {
+            "type": "java",
+            "name": "HowOldAreYou",
+            "request": "launch",
+            "mainClass": "HowOldAreYou",
+            "projectName": "java-basic-1_1ee801cc"
+        },
+        {
+            "type": "java",
+            "name": "IfTest0",
+            "request": "launch",
+            "mainClass": "IfTest0",
+            "projectName": "java-basic-1_1ee801cc"
+        },
+        {
+            "type": "java",
+            "name": "IfTest1",
+            "request": "launch",
+            "mainClass": "IfTest1",
+            "projectName": "java-basic-1_1ee801cc",
+            "args": [
+                "4"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "IfTest2",
+            "request": "launch",
+            "mainClass": "IfTest2",
+            "projectName": "java-basic-1_1ee801cc",
+            "args": [
+                "4"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "IfTest3",
+            "request": "launch",
+            "mainClass": "IfTest3",
+            "projectName": "java-basic-1_1ee801cc",
+            "args": [
+                "0"
+            ]
         }
     ]
 }
