@@ -24,7 +24,7 @@ public class HowOldAreYou {
 					System.out.println("数字を入力してください。");
 					continue;
 				}
-				if (age >= 120 || age <= 0) {
+				if (age >= 120 || age < 0) {
 					System.out.println("再入力してください");
 					continue;
 				}
