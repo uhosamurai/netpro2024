@@ -1,0 +1,60 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MayExceptionTest",
+            "request": "launch",
+            "mainClass": "MayExceptionTest",
+            "projectName": "java-basic-2_1ee801cd"
+        },
+        {
+            "type": "java",
+            "name": "HeikinCKadai",
+            "request": "launch",
+            "mainClass": "HeikinCKadai",
+            "projectName": "java-basic-2_1ee801cd"
+        },
+        {
+            "type": "java",
+            "name": "ImagePrinter",
+            "request": "launch",
+            "mainClass": "ImagePrinter",
+            "projectName": "java-basic-2_1ee801cd"
+        },
+        {
+            "type": "java",
+            "name": "LoopAdvance",
+            "request": "launch",
+            "mainClass": "LoopAdvance",
+            "projectName": "java-basic-2_1ee801cd"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "java-basic-2_1ee801cd"
+        },
+        {
+            "type": "java",
+            "name": "XmasTreeKadai",
+            "request": "launch",
+            "mainClass": "XmasTreeKadai",
+            "projectName": "java-basic-2_1ee801cd",
+            "args": [
+                "20",
+                "16"
+            ]
+        }
+    ]
+}

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CSVReaderExample",
+            "request": "launch",
+            "mainClass": "CSVReaderExample",
+            "projectName": "java-basic-1_1ee801cc"
+        },
+        {
+            "type": "java",
             "name": "StringOperationTest",
             "request": "launch",
             "mainClass": "StringOperationTest",
