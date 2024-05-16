@@ -1,18 +1,44 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+## 概要
+何度もメッセージを送信でき、`quit`または`exit`で終了することができます。
 
-The workspace contains two folders by default, where:
+## 使用方法
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### サーバーの起動
+1. `MyTCPServer.java`を実行します。
+2. 使用するポート番号を入力します（例: 5000）。
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### クライアントの起動
+1. `MyTCPClient.java`を実行します。
+2. サーバーで指定したポート番号を入力します（例: 5000）。
+3. メッセージとプレゼントの内容を入力します。
+### 実行例です。
+////
+ポートを入力してください(5000など) → 5000
+localhostの5000番ポートに接続を要求します
+接続されました
+メッセージを入力してください(例:メリークリスマス、終了するには'quit'または'exit') ↓    
+プレゼント　iTunesカード
+プレゼントの内容を入力してください(例:お菓子) ↓
+iTunesカード
+サーバからのメッセージはサーバーです。メリークリスマス！
+iTunes?J?[?hありがとう。
+プレゼントのお返しは2倍です
+?iTunes?J?[?hiTunes?J?[?h?をもらいました！
+メッセージを入力してください(例:メリークリスマス、終了するには'quit'または'exit') ↓
+exit
+//////
+4. `quit`または`exit`と入力することで、通信を終了します。
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## クラス
 
-## Dependency Management
+### Gift.java
+- `message`: メッセージ内容
+- `content`: プレゼントの内容
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### MyTCPServer.java
+- クライアントから受け取ったメッセージに応じてプレゼント内容を変換し、応答します。
+
+### MyTCPClient.java
+- ユーザーからメッセージとプレゼント内容を入力し、サーバーに送信します。
