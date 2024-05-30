@@ -1,0 +1,9 @@
+Microsoft Windows [Version 10.0.22631.3593]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\hodak\Desktop\netpro2024\socket-3> cmd /C "C:\Users\hodak\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin\java.exe -XX:+ShowCodeDetailsInExceptionMessages -cp C:\Users\hodak\Desktop\netpro2024\socket-3\bin basic.ExThreadsMain "
+
+CubeSumTask - Cube sum from 1 to 100 is 25502500
+SquareSumTask - Square sum from 1 to 100 is 338350
+SumTask - Sum from 1 to 100 is 5050
+All tasks are completed.

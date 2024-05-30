@@ -1,0 +1,14 @@
+Microsoft Windows [Version 10.0.22631.3593]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\hodak\Desktop\netpro2024\socket-3> cmd /C "C:\Users\hodak\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin\java.exe -XX:+ShowCodeDetailsInExceptionMessages -cp C:\Users\hodak\Desktop\netpro2024\socket-3\bin basic.UDPClient "
+送信: abc
+
+C:\Users\hodak\Desktop\netpro2024\socket-3>
+
+C:\Users\hodak\Desktop\netpro2024\socket-3>
+C:\Users\hodak\Desktop\netpro2024\socket-3> c: && cd c:\Users\hodak\Desktop\netpro2024\socket-3 && cmd /C "C:\Users\hodak\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin\java.exe -XX:+ShowCodeDetailsInExceptionMessages -cp C:\Users\hodak\Desktop\netpro2024\socket-3\bin basic.UDPClient "
+送信: abc
+サーバからの返信: ABC
+
+
